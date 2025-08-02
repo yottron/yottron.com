@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+  --primary-color: #f6703d;
+  --secondary-color: #f1f1f1;
+  --grey-color: grey;
+  --black-color: black;
+  --box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(140, 143, 145, 0.32) 0px 2px 16px 0px;
+  --primary-lite: blanchedalmond;
+  --paragraph-color: #666;
+}
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.Agritech-overview {
+    position: relative;
+    max-width: 100vw;
+    overflow-x: hidden;
+     img {
+        width: 100%;
+        height: 100%; 
+        object-fit: cover; 
+    }
+    .text-overlayfor-agitech{
+        padding: 2rem;
+        border-radius: 2rem;
+        position: absolute;
+        overflow: hidden;
+        max-width: 100%;
+        max-height: 100vh;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+        text-align: center; 
+        color: var(--secondary-color); 
+    }
+    p{
+        font-size: 1.5rem;
+    }
+}
+.agritech-intro-section{
+    margin:1rem;
+    img{
+        max-width: 100%;
+        height: 100%;
+        border-radius: 1rem;
+    }
+    h2{
+        color:var(--primary-color);
+        font-weight: bold;
+    }
+    p{
+        text-align: left;
+        color: var(--paragraph-color);
+
+    }
+
+    
+  
+}
+.our-expertise-for-agritech{
+    padding:1.2rem;
+    .agritech-expertise-item {
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-top:0.2rem solid var(--primary-color);
+        transition: 0.3s ease;
+      }
+     h3{
+        font-size:2rem;
+        color: var(--paragraph-color);
+        margin-bottom: 10px;
+        transition: color 0.3s;
+        text-align: center;
+
+     }
+     .agritech-expertise-item:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .agritech-expertise-item:hover h3 {
+        color:var(--primary-color); 
+    }
+}
+.innovative-solutions-for-agritech{
+ ul{
+    transition:  0.4s ease;
+ }
+    li{
+        list-style: none;
+        padding:1.2rem;
+        font-size: 1rem;
+        padding:2rem;
+        font-style:italic;
+    }
+    ul:hover{
+        background-color: var(--primary-color);
+        cursor: pointer;
+        border-radius: 1rem;
+    }
+    i{
+
+        padding:1rem;
+        font-size:1.2rem;
+        background-color: var(--black-color);
+        border-radius: 50%;
+        color:var(--primary-color);
+    }
+    h3{
+        text-align: center;
+        font-weight: bold;
+        color: var(--primary-color);
+    }
+}
+.benefits{
+h3{
+    color: var(--primary-color);
+    font-weight: bold;
+    text-align: center;
+}
+    .benefits-list{
+    padding: 1rem;
+    transition: 0.3s ease;
+}
+li{
+    padding:1rem;
+    list-style: square;
+    color: var(--paragraph-color);
+}
+li::marker{
+    color: var(--primary-color);
+}
+
+}

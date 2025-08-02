@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+  --primary-color: #f6703d;
+  --secondary-color: #f1f1f1;
+  --grey-color: grey;
+  --black-color: black;
+  --box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(140, 143, 145, 0.32) 0px 2px 16px 0px;
+  --primary-lite: blanchedalmond;
+  --paragraph-color: #666;
+
+}
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+/* Health care intro section style start */
+
+.healthcare-intro{
+   position: relative;
+
+}
+.healthcare-intro-image-container img{
+width: 100%;
+object-fit: cover;
+height: 90vh;
+}
+.healthcare-textoverlay{
+    position: absolute;
+    top:45%;
+    bottom:50%;
+    text-align: center;
+    color: white;
+   
+}
+
+.healthcare-textoverlay a{
+
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+.healthcare-textoverlay a:hover{
+    background-color: var(--black-color);
+    color:white;
+}
+/* Health care intro section style end */
+
+
+/* Style for the our-healthcare-client-section */
+.our-healthcare-client-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.our-healthcare-client-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.our-healthcare-client-section p {
+    text-align: center;
+    color: #666;
+}
+
+/* Style for the client logos */
+.our-healthcare-client-section img {
+    display: inline;
+    margin:1rem;
+    max-width: 100px;
+    margin-bottom: 20px;
+    border-radius: 20%;
+    margin-left:2%;
+}
+
+/* Our HealthCare Clients style ends */
+
+/*Our Healthcare Expertise section Section */
+
+.heathcare-expertise-section{
+    Padding:2rem;
+    h2{
+        color:var(--primary-color);
+        font-weight: bold;
+    }
+    p{
+        font-size: 16px;
+        text-align: left;
+        color: var(--paragraph-color);
+    }
+    img{   
+        width:100%;
+        border-radius: 2%;
+    }
+    
+}
+.expertise-content{
+    line-height: 2rem;
+}
+.expertise-container{
+   display: flex;
+   left-content: center;
+   align-items: center;
+}
+
+.expertise-container ul{
+    list-style: none;
+
+}
+
+.expertise-container ul li{
+    padding: 1rem;
+}
+.expertise-container ul li:hover{
+    text-decoration: underline;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.expertise-container ul li i{
+    color:var(--primary-color)
+}
+/*Our Healthcare Expertise section Section styles end */
+
+/* Why yottron for healthcare section style starts */
+.why-yottron-for-healthcare-section{
+    h2{
+        text-align: center;
+        color: var(--primary-color);
+        font-weight: bold;
+    }
+    .why-yottron-content{
+        background-color: var(--secondary-color);
+        padding: 5%;
+    }
+    .bullet-list{
+        list-style: none;
+        text-align: left;
+        line-height: 2rem;
+        font-style: italic;
+    }
+    .bullet-list i{
+        color: var(--primary-color);
+        padding: 1%;
+    }
+}
+@media (max-width: 768px) {
+    .expertise-image-container{
+        margin: 2px;
+    }
+}

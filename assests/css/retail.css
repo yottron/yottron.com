@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+  --primary-color: #f6703d;
+  --secondary-color: #f1f1f1;
+  --grey-color: grey;
+  --black-color: black;
+  --box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(140, 143, 145, 0.32) 0px 2px 16px 0px;
+  --primary-lite: blanchedalmond;
+  --paragraph-color: #666;
+}
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden; 
+  box-sizing: border-box;
+}
+/*Retail and ecom intro section style start*/
+.reatil-intro-container{
+    position: relative;
+ 
+ 
+}
+.retail-intro-container img{
+    width: 100%;
+    height: 100vh;
+}
+.retail-intro-textoverlay {
+    padding: 2rem;
+    position: absolute;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100vh;
+    top: 50%;
+    left: 50%;
+    border-radius: 1rem;
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+    color: var(--secondary-color); 
+    
+}
+.overlay-content {
+    text-align: center;
+}
+
+.overlay-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.overlay-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.overlay-content a{
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    color: white;
+    background-color: var(--primary-color);
+    border: 0;
+    transition: 0.2s ease;
+}
+.overlay-content a:hover{
+    background-color: var(--black-color);
+    color: var(--primary-color);
+}
+/*Retail and ecom intro section style ends*/
+/*Retail and ecom overview section style starts*/
+.retail-ecom-overview-container{
+    padding:2rem;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 1%;
+    }
+    p{
+        font-size:1.1rem;
+        color:var(--paragraph-color);
+        text-align: left;
+    }
+    h3{
+        font-size: 1.8rem;
+        color: var(--primary-color);
+        font-weight: bold;
+      }
+
+}
+/*Retail and ecom overview section style ends*/
+/*Retail and ecom oexpertise section style starts*/
+.retail-and-ecom-expertise{
+    margin-top: 5%;
+    /* margin-bottom: 5%; */
+ h3{
+    color:var(--primary-color);
+    text-align: center;
+    font-weight: bold;
+ }
+  .retail-and-expertise-container{
+    display: flex;
+    flex-direction: row;
+    padding:2rem;
+   
+  }
+  .retail-ecom-expertise{
+    transition: 0.3s ease;
+    text-align: center;
+    padding: 2rem;
+    cursor: pointer;
+  } 
+  .retail-ecom-expertise:hover{
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+
+  }
+  .retail-ecom-expertise i{
+    color:var(--primary-color);
+  }
+  
+}
+
+/*Retail and ecom oexpertise section style ends*/
+
+/*why yottron for retail and ecom section style starts*/
+.why-yottron-retail-ecom{
+    background-color: var(--secondary-color);
+   
+    margin-bottom:1%;   
+h3{
+    padding:1rem;
+    text-align: center;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+i{
+    color: var(--primary-color);
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+i:hover{
+    background-color: black;
+    padding:10px;
+    border-radius: 2rem;
+}
+h4{
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--grey-color);
+}
+div{
+    padding:1rem;
+}
+}
+/*section for user experince and customer sucess style start*/
+
+.user-experience-and-customersuccess{
+    padding:2.5rem;
+h3{
+    text-align: center;
+    color:var(--primary-color);
+    font-weight: bold;
+}
+    ul{
+        list-style: none;
+        margin:1rem;
+   }
+   li:hover {
+    cursor: pointer;
+    color: var(--primary-color); 
+    font-weight: bold; 
+    text-decoration: underline; 
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+}
+    li{
+        padding:2rem;
+    }
+    i{
+        color: var(--primary-color);
+    }
+} 
+/*section for user experince and customer sucess style ends*/
+@media (max-width: 575.98px) {
+    .retail-intro-textoverlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 2rem;
+        text-align: center;
+        
+    }
+}
+
+/* Small devices (phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .retail-intro-textoverlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 2rem;
+        text-align: center;
+        color: var(--secondary-color); 
+        
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .retail-intro-textoverlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 2rem;
+        text-align: center;
+        color: var(--secondary-color); 
+        
+    }
+}
+
