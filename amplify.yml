@@ -1,0 +1,11 @@
+version: 1
+frontend:
+  phases:
+    build:
+      commands: []
+  artifacts:
+    baseDirectory: .  # ← deploy root folder
+    files:
+      - '**/*'
+  cache:
+    paths: []
